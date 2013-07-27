@@ -6,7 +6,7 @@ Take your CSVs and shove 'em!...into an Excel file...
 ### Usage
 
 ```
-csv2xlsxl new_excel_file.xlsx file1.csv file2.csv [...]
+csv2xlsx new_excel_file.xlsx file1.csv file2.csv [...]
 ```
 
 This creates an Excel file called `new_excel_file.xlsx` with each CSV file's contents in its own sheet.  The sheets are named the same as the CSV filename, e.g. the first sheet is named `file1`.
